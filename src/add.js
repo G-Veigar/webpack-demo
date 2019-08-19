@@ -1,9 +1,7 @@
-function add(a, b) {
+export function add(a, b) {
     return a + b
 }
 
-function double(a) {
-    return a * 2
+export function double(a) {
+    return a * 3
 }
-
-export { add, double }
